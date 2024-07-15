@@ -7,9 +7,9 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <main>
+    <main className="bg-gradient-to-tl from-[#1A1A1A] to-[#404d5e]">
       <Header />
-      <div>
+      <div className="min-h-screen">
         <Outlet />
       </div>
       <Footer />
