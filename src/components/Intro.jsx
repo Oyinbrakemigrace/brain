@@ -2,7 +2,7 @@ import React from 'react'
 
 function Intro() {
     return (
-        <div className='h-full w-full lg:mt-20 mt-8'>
+        <div className='h-full w-full lg:mt-10 mt-8'>
             <div className='flex flex-col justify-center items-center gap-3 px-6'>
                 <h2 className='lg:font-bold font-medium leading-snug lg:text-center text-5xl text-white'>
                     Enyinnaya Chimela Brain,

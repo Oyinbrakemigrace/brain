@@ -10,9 +10,9 @@ function Header() {
 
   return (
     <div className='pb-20'>
-      <nav className="p-4 fixed top-0 w-full">
+      <nav className="p-4 fixed top-0 w-full z-50">
         <div className="container mx-auto flex justify-center items-center">
-          <div className=" bg-neutral-400 bg-opacity-10 border-[0.2px] border-zinc-500 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full lg:w-[75%] md:w-[80%]">
+          <div className=" bg-neutral-400 bg-opacity-10 border-[0.2px] border-zinc-500 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full md:w-[80%]">
             <NavLink to='/' className="text-white font-bold text-xl">Brain.</NavLink>
             <div className="hidden md:flex space-x-6 text-white">
               <NavLink to='projects'>Projects</NavLink>
