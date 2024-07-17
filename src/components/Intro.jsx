@@ -8,10 +8,10 @@ function Intro() {
                     Enyinnaya Chimela Brain,
                 </h2>
                 <h4 className='font-normal lg:text-center text-4xl leading-snug italic text-white'>
-                    Creative Product Designer & a <br /> Brand Strategist/ Identity Designer
+                    Creative Product Designer & a <br /> Brand Strategist/Identity Designer
                 </h4>
             </div>
-            <div className='hidden lg:block bg-gradient-to-r from-gray-600 mt-8 to-zinc-800 rounded-[32px] shadow-inner border border-zinc-600 backdrop-blur-[20px] m-auto w-[14%] py-4'>
+            <div className='hidden lg:block bg-gradient-to-r from-[#676767] mt-8 to-[#313131] rounded-[32px] shadow-inner border border-zinc-600 backdrop-blur-[20px] m-auto w-[14%] py-4'>
                 <div className='flex justify-center items-center gap-3 text-white'>
                     <p>Available for work</p><span className='h-3 w-3 flex bg-green-500 rounded-full'></span>
                 </div>

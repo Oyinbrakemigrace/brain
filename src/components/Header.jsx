@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
+import navitems from '../constants/navigation';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +16,18 @@ function Header() {
           <div className=" bg-neutral-400 bg-opacity-10 border-[0.2px] border-zinc-500 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full md:w-[80%]">
             <NavLink to='/' className="text-white font-bold text-xl">Brain.</NavLink>
             <div className="hidden md:flex space-x-6 text-white">
-              <NavLink to='/projects'>Projects</NavLink>
-              <NavLink to="/about">About me</NavLink>
-              <NavLink to="">Resume</NavLink>
-              <NavLink to="/contact">Contact</NavLink>
+              {
+                navitems.map((navitem) => {
+                  return (
+                    <NavLink
+                      to={navitem.href}
+                      key={navitem.label}
+                      className={({ isActive }) => `hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-tl hover:from-[#5c3d5c] hover:to-[#F1B2AA] ${isActive && 'bg-clip-text text-transparent bg-gradient-to-tl from-[#AD7FAD] to-[#F1B2AA] font-bold'}`}>
+                      {navitem.label}
+                    </NavLink>
+                  )
+                })
+              }
             </div>
             <div className="md:hidden">
               <button
@@ -46,10 +55,19 @@ function Header() {
         </div>
         {isOpen && (
           <div className="md:hidden bg-neutral-400 text-white bg-opacity-60 border-[0.2px] border-zinc-500 backdrop-blur-lg flex flex-col items-center space-y-4 mt-2 py-5">
-            <NavLink onClick={handleNavLinkClick} to='/projects'>Projects</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="/about">About me</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="">Resume</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="/contact">Contact</NavLink>
+            {
+              navitems.map((navitem) => {
+                return (
+                  <NavLink
+                    onClick={handleNavLinkClick}
+                    to={navitem.href}
+                    key={navitem.label}
+                    className={({ isActive }) => `hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-tl hover:from-[#AD7FAD] hover:to-[#F1B2AA] ${isActive && 'bg-clip-text text-transparent bg-gradient-to-tl from-[#AD7FAD] to-[#F1B2AA] font-bold'}`}>
+                    {navitem.label}
+                  </NavLink>
+                )
+              })
+            }
           </div>
         )}
       </nav>

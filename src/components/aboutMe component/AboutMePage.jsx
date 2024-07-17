@@ -25,7 +25,7 @@ function AboutMePage() {
           with your audience, let&apos;s connect. Together, we&apos;ll turn your vision into a compelling reality that drives
           your business forward.
         </p>
-        <Link to='/projects' className='text-white font-bold text-lg flex items-center justify-center mx-auto border gap-3 bg-gradient-to-l from-gray-600 to-zinc-800 px-6 py-3 w-full md:w-1/4 lg:mt-10 mt-8 rounded-3xl'><span>See my journey</span> <MdArrowOutward /></Link>
+        <Link to='https://drive.google.com/file/d/1ZYae4QLFcvvMgvf0AJYUNOFKyRwYq3FW/view?usp=drive_link' className='text-white font-bold text-lg flex items-center justify-center mx-auto border border-zinc-600 gap-3 bg-gradient-to-r from-zinc-600 to-zinc-800px-6 py-3 w-full md:w-1/4 lg:mt-10 mt-8 rounded-3xl'><span>See my journey</span> <MdArrowOutward /></Link>
       </div>
       <div>
         <SubHeading title='What I offer' />

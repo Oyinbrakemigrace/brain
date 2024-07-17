@@ -20,3 +20,6 @@ body {
 .slick-dots li button:before {
     color: rgb(235, 235, 235) !important;
 }
+.bg-custom-gradient {
+    background: radial-gradient(circle at top left, rgba(145, 192, 245, 0.5) , transparent 10%), #1A1A1A;
+}
