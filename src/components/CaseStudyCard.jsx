@@ -9,7 +9,7 @@ function ProjectCard({ data }) {
                 <div>
                     <img src={data.projectImage} alt="projectImage" className='w-full' />
                 </div>
-                <div className='bg-[#413C3C] group-hover:bg-gradient-to-r group-hover:from-gray-600 mt-8 group-hover:to-zinc-800 border border-zinc-600 p-4 rounded-2xl'>
+                <div className='bg-stone-700/70 group-hover:bg-gradient-to-r group-hover:from-gray-600 mt-8 group-hover:to-zinc-800 border border-zinc-600 backdrop-blur-2xl  p-4 rounded-2xl'>
                     <h3 className='font-bold text-3xl mb-4'>{data.projectName}</h3>
                     <p>{data.projectDescription}</p>
                     <div className='flex justify-between items-center mt-6'>

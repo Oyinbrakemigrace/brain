@@ -22,8 +22,8 @@ function MobileTestimonial() {
                     <Slider {...settings}>
                         {TestimonialData.map((testimonial, index) => (
                             <div className='space-x-5'>
-                                <div className='bg-neutral-400 bg-opacity-10 p-3 rounded-2xl'>
-                                    <div key={index} className="bg-gradient-to-l from-gray-600 to-zinc-800 text-white p-6 min-h-60 w-full rounded-lg shadow-lg">
+                                <div className='bg-neutral-400 bg-opacity-10 p-3 hover:border hover:border-zinc-500 rounded-2xl'>
+                                    <div key={index} className="bg-gradient-to-br from-white/30 to-white/15 text-white p-6 min-h-60 w-full rounded-lg shadow-lg">
                                         <p className="mb-4">{testimonial.feedback}</p>
                                         <div className="flex items-center">
                                             <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" />
@@ -34,7 +34,6 @@ function MobileTestimonial() {
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         ))}
                     </Slider>

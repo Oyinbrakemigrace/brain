@@ -17,27 +17,27 @@ function ContactForm() {
         e.preventDefault();
         setLoading(true)
 
-        // fetch("https://formspree.io/f/code", {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(formData),
-        // })
-        //     .then((response) => {
-        //         if (response.ok) {
-        //             alert('Email sent successfully!');
-        //             setLoading(false)
-        //             setFormData({ name: '', email: '', message: '' });
-        //         } else {
-        //             alert('Failed to send email. Please try again.');
-        //         }
-        //     })
-        //     .catch((error) => {
-        //         setLoading(false)
-        //         console.error('Error:', error);
-        //         alert('Failed to send email. Please try again.');
-        //     });
+        fetch('https://formspree.io/f/xdknkbkr', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+            .then((response) => {
+                if (response.ok) {
+                    alert('Email sent successfully!');
+                    setLoading(false)
+                    setFormData({ name: '', email: '', message: '' });
+                } else {
+                    alert('Failed to send email. Please try again.');
+                }
+            })
+            .catch((error) => {
+                setLoading(false)
+                console.error('Error:', error);
+                alert('Failed to send email. Please try again.');
+            });
     };
 
     return (
@@ -85,7 +85,7 @@ function ContactForm() {
                 </div>
                 <button
                     type="submit"
-                    className={`mt-5 w-full px-6 py-3 ${loading ? 'mt-8 cursor-none' : 'bg-gradient-to-tl from-gray-400 mt-8 to-zinc-800 '} text-white font-bold rounded-md bg-gradient-to-bl hover:from-gray-600 mt-8 hover:to-zinc-800  focus:outline-none focus:ring-2 focus:ring-[#AD7FAD]`}
+                    className={`mt-5 w-full px-6 py-4 ${loading ? 'cursor-none' : 'bg-gradient-to-tl from-zinc-600 mt-8 to-zinc-400 '} text-white text-xl border border-zinc-400 font-bold rounded-md bg-gradient-to-bl hover:from-gray-600 lg:mt-6 mt-3 hover:to-zinc-800`}
                 >
                     {loading ? (<div className='flex justify-center items-center gap-2'>
                         <span>Submitting</span>
