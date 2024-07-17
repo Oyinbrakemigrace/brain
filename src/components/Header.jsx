@@ -15,10 +15,10 @@ function Header() {
           <div className=" bg-neutral-400 bg-opacity-10 border-[0.2px] border-zinc-500 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full md:w-[80%]">
             <NavLink to='/' className="text-white font-bold text-xl">Brain.</NavLink>
             <div className="hidden md:flex space-x-6 text-white">
-              <NavLink to='projects'>Projects</NavLink>
-              <NavLink to="about">About me</NavLink>
-              <NavLink to="#resume">Resume</NavLink>
-              <NavLink to="contact">Contact</NavLink>
+              <NavLink to='/projects'>Projects</NavLink>
+              <NavLink to="/about">About me</NavLink>
+              <NavLink to="">Resume</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </div>
             <div className="md:hidden">
               <button
@@ -46,10 +46,10 @@ function Header() {
         </div>
         {isOpen && (
           <div className="md:hidden bg-neutral-400 text-white bg-opacity-60 border-[0.2px] border-zinc-500 backdrop-blur-lg flex flex-col items-center space-y-4 mt-2 py-5">
-            <NavLink onClick={handleNavLinkClick} to='projects'>Projects</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="about">About me</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="#resume">Resume</NavLink>
-            <NavLink onClick={handleNavLinkClick} to="contact">Contact</NavLink>
+            <NavLink onClick={handleNavLinkClick} to='/projects'>Projects</NavLink>
+            <NavLink onClick={handleNavLinkClick} to="/about">About me</NavLink>
+            <NavLink onClick={handleNavLinkClick} to="">Resume</NavLink>
+            <NavLink onClick={handleNavLinkClick} to="/contact">Contact</NavLink>
           </div>
         )}
       </nav>

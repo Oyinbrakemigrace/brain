@@ -36,7 +36,7 @@ function App() {
         <Outlet />
       </div>
       {showScrollArrow && (
-        <span onClick={scrollToTop} aria-label="Scroll to top" className='cursor-pointer fixed bottom-4 lg:right-4 right-7 bg-gradient-to-l from-gray-400 to-zinc-300 rounded-full lg:px-5 lg:py-5 lg:text-3xl text-lg px-2 py-2 font-bold text-black z-50'><IoMdArrowUp /></span>
+        <span onClick={scrollToTop} aria-label="Scroll to top" className='cursor-pointer fixed bottom-4 lg:right-4 right-7 bg-gradient-to-l from-gray-400 to-zinc-300 rounded-full px-5 py-5 text-3xl font-bold text-black z-50'><IoMdArrowUp /></span>
       )}
       <Footer />
     </main>
