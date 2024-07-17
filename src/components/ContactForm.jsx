@@ -53,7 +53,7 @@ function ContactForm() {
                         type="text"
                         id="name"
                         placeholder='enter your full name'
-                        className='w-full p-3 border dark:text-zinc-700 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
+                        className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>
                 <div className='flex flex-col w-full'>
@@ -66,7 +66,7 @@ function ContactForm() {
                         onChange={handleChange}
                         required
                         placeholder='your@email.com'
-                        className='w-full p-3 border text-white border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
+                        className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>
                 <div className='flex flex-col w-full'>
@@ -80,7 +80,7 @@ function ContactForm() {
                         id="message"
                         cols="30"
                         rows="10"
-                        className='w-full p-3 border text-white border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
+                        className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>
                 <button

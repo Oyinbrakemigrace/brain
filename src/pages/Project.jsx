@@ -6,7 +6,7 @@ import BrandIdentityProject from '../components/project component/BrandIdentityP
 function Project() {
   return (
     <div className='lg:px-36 px-4'>
-      <section className='lg:mb-32 mb-10'>
+      <section className='lg:mb-32 pb-10'>
         <ProjectSlide />
       </section>
       <section className='lg:mb-32 mb-10'>
