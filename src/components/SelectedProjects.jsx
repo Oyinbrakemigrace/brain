@@ -18,7 +18,7 @@ function SelectedProjects() {
                     })
                 }
             </div>
-            <Link to='/projects' className='text-white font-bold text-lg flex items-center justify-center mx-auto border border-zinc-600 gap-3 bg-gradient-to-r from-zinc-600 to-zinc-800 px-6 py-3 lg:w-1/5 w-full md:w-1/4 mt-8 rounded-3xl'><span>Load More</span> <MdArrowOutward /></Link>
+            <Link to='/projects' className='text-white font-bold text-lg flex items-center justify-center mx-auto border border-[#575757] gap-3 bg-gradient-to-r from-[#32343D] to-[#4A535A] hover:bg-gradient-to-l hover:from-[#321D4A] hover:to-[#4A535A] px-6 py-3 lg:w-1/5 w-full md:w-1/4 mt-8 rounded-3xl'><span>Load More</span> <MdArrowOutward /></Link>
         </div>
     )
 }
