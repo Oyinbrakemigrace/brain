@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight) {
+      if (window.scrollY > window.innerHeight-20) {
         setShowScrollArrow(true);
       } else {
         setShowScrollArrow(false);

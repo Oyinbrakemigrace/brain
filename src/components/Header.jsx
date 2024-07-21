@@ -13,7 +13,7 @@ function Header() {
     <div className='pb-20'>
       <nav className="p-4 fixed top-0 w-full z-50">
         <div className="container mx-auto flex justify-center items-center">
-          <div className=" bg-neutral-400 bg-opacity-10 border-[0.2px] border-zinc-500 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full md:w-[80%]">
+          <div className=" bg-gradient-to-tl from-[#FFFFFF]/20 to-[#999999]/10 border border-zinc-200/5 backdrop-blur-lg rounded-full lg:px-8 px-4 py-4 flex justify-between items-center w-full md:w-[80%]">
             <NavLink to='/' className="text-white font-bold text-xl">Brain.</NavLink>
             <div className="hidden md:flex space-x-6 text-white">
               {
@@ -22,7 +22,7 @@ function Header() {
                     <NavLink
                       to={navitem.href}
                       key={navitem.label}
-                      className={({ isActive }) => `hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-tl hover:from-[#5c3d5c] hover:to-[#F1B2AA] ${isActive && 'bg-clip-text text-transparent bg-gradient-to-tl from-[#AD7FAD] to-[#F1B2AA] font-bold'}`}>
+                      className={({ isActive }) => `hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-l hover:from-[#E5C1FF]/90 hover:to-[#8B6FE1]/40 ${isActive && 'font-bold'}`}>
                       {navitem.label}
                     </NavLink>
                   )

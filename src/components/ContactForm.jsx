@@ -85,7 +85,7 @@ function ContactForm() {
                 </div>
                 <button
                     type="submit"
-                    className={`mt-5 w-full px-6 py-4 ${loading ? 'cursor-none' : 'bg-gradient-to-tl from-zinc-600 mt-8 to-zinc-400 '} text-white text-xl border border-zinc-400 font-bold rounded-md bg-gradient-to-bl hover:from-gray-600 lg:mt-6 mt-3 hover:to-zinc-800`}
+                    className={`mt-5 w-full px-6 py-4 ${loading ? 'cursor-none' : 'bg-gradient-to-tl from-zinc-600 mt-8 to-zinc-400 '} text-white text-xl border border-zinc-400 font-bold rounded-md hover:bg-gradient-to-bl hover:from-gray-600 hover:to-zinc-800 lg:mt-6 mt-3`}
                 >
                     {loading ? (<div className='flex justify-center items-center gap-2'>
                         <span>Submitting</span>

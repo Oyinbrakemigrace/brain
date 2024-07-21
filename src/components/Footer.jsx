@@ -26,7 +26,7 @@ function Footer() {
               <NavLink
                 to={navitem.href}
                 key={navitem.label}
-                className={({ isActive }) =>`hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-tl hover:from-[#AD7FAD] hover:to-[#F1B2AA] lg:text-xl text-base ${isActive && 'bg-clip-text text-transparent bg-gradient-to-tl from-[#AD7FAD] to-[#F1B2AA] font-bold'}`}>
+                className={({ isActive }) =>`hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-l hover:from-[#E5C1FF]/90 hover:to-[#8B6FE1]/40 ${isActive && 'font-bold'}`}>
                 {navitem.label}
               </NavLink>
             )
