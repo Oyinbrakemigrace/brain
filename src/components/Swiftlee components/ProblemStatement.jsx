@@ -28,11 +28,11 @@ function ProblemStatement() {
     return (
         <div className='lg:px-14 px-7 text-gray-200 mt-10'>
             <div className='flex lg:flex-row flex-col-reverse justify-between'>
-                <img src="/assets/SwiftLee/problemStatementMockup.png" alt="problemStatementMockup" />
+                <img src="/assets/SwiftLee/problemStatementMockup.png" alt="problemStatementMockup" className='lg:block hidden' />
                 <div className='lg:w-1/2 w-full'>
                     <SwiftleeSubheading text="Problem Statement" />
                     <p>
-                        <span className='lg:block hidden'>
+                        <span>
                             Traditional ride-hailing apps are often viewed as luxuries, particularly in regions 
                             with limited infrastructure. Many lack affordable options for group rides or future 
                             travel planning. Swiftlee tackles these challenges by offering shared rides along 
