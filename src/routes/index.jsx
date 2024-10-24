@@ -4,6 +4,9 @@ import Project from "../pages/Project";
 import AboutMe from "../pages/AboutMe";
 import ContactMe from "../pages/ContactMe";
 import Home from "../pages/Home";
+import PayQuickCaseStudyPage from "../pages/PayQuickCaseStudyPage";
+import SwiftleeCaseStudyPage from "../pages/SwiftleeCaseStudyPage";
+import DQRCaseStudyPage from "../pages/DQRCaseStudyPage";
 
 const router = createBrowserRouter([
   {
@@ -15,16 +18,28 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "projects",
+        path: "/projects",
         element: <Project />,
       },
       {
-        path: "about",
+        path: "/about",
         element: <AboutMe />,
       },
       {
-        path: "contact",
+        path: "/contact",
         element: <ContactMe />,
+      },
+      {
+        path: "/projects/pay-quick-case-study",
+        element: <PayQuickCaseStudyPage />,
+      },
+      {
+        path: "/projects/swiftlee-case-study",
+        element: <SwiftleeCaseStudyPage />,
+      },
+      {
+        path: "/projects/dineqr-case-study",
+        element: <DQRCaseStudyPage />,
       },
     ],
   },

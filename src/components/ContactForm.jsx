@@ -42,7 +42,7 @@ function ContactForm() {
 
     return (
         <div>
-            <form onSubmit={handleSubmit} className='flex flex-col gap-6 justify-center items-center w-full max-w-lg mx-auto'>
+            <form onSubmit={handleSubmit} className='flex flex-col gap-2 justify-center items-center w-full max-w-lg mx-auto'>
                 <div className='flex flex-col w-full'>
                     <label htmlFor="name" className='mb-2 text-white font-medium'>Full Name</label>
                     <input
@@ -52,7 +52,7 @@ function ContactForm() {
                         required
                         type="text"
                         id="name"
-                        placeholder='enter your full name'
+                        placeholder='Enter your full name'
                         className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>
@@ -65,7 +65,7 @@ function ContactForm() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        placeholder='your@email.com'
+                        placeholder='Enter your email here'
                         className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>
@@ -76,10 +76,10 @@ function ContactForm() {
                         value={formData.message}
                         onChange={handleChange}
                         required
-                        placeholder='enter your message here'
+                        placeholder='Enter your message here'
                         id="message"
-                        cols="30"
-                        rows="10"
+                        cols="20"
+                        rows="6"
                         className='w-full p-3 border text-zinc-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a1a1a]'
                     />
                 </div>

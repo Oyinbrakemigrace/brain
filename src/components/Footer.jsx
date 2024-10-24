@@ -2,9 +2,9 @@ import React from 'react'
 import { AiFillBehanceSquare } from 'react-icons/ai'
 import { FaLinkedin, FaWhatsappSquare } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
-import footerImg from '../assets/footer.png'
+import footerImg from '/assets/footer.png'
 import navitems from '../constants/navigation'
-import { FaSquareXTwitter, FaXTwitter } from 'react-icons/fa6'
+import { FaSquareXTwitter } from 'react-icons/fa6'
 
 
 function Footer() {

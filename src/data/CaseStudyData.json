@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "projectImage": "/assets/PayQuick.png",
+    "projectName": "PayQuik",
+    "projectDescription": "A fintech app enabling real-time bulk payments and seamless financial transactions.",
+    "isProjectDone": false,
+    "projectHref": "/projects/pay-quick-case-study"
+  },
+  {
+    "id": 2,
+    "projectImage": "/assets/Swiftlee.png",
+    "projectName": "Swiftlee",
+    "projectDescription": "Affordable, convenient ride-hailing with unique seat-booking & premium ride options.",
+    "isProjectDone": false,
+    "projectHref": "/projects/swiftlee-case-study"
+  },
+  {
+    "id": 3,
+    "projectImage": "/assets/DineQR.png",
+    "projectName": "DineQR",
+    "projectDescription": "Scan to view menus, place orders, and access real-time updates.",
+    "isProjectDone": false,
+    "projectHref": "/projects/dineqr-case-study"
+  }
+]
