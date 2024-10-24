@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import TestimonialData from '../data/TestimonialData';
+import TestimonialData from '../data/TestimonialData.json';
 import SubHeading from './SubHeading';
 
 function MobileTestimonial() {

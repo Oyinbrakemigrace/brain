@@ -1,5 +1,5 @@
 import React from 'react'
-import circle from '../../assets/smoothStar.svg'
+import circle from '/assets/smoothStar.svg'
 import Marquee from 'react-fast-marquee';
 
 function Tools() {

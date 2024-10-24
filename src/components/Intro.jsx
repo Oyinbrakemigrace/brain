@@ -16,6 +16,7 @@ function Intro() {
                     <p>Available for work</p><span className='h-3 w-3 flex bg-green-500 rounded-full'></span>
                 </div>
             </div>
+            
         </div>
     )
 }

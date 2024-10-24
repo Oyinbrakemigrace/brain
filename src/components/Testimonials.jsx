@@ -1,6 +1,6 @@
 import React from 'react'
 import SubHeading from './SubHeading'
-import TestimonialData from '../data/TestimonialData'
+import TestimonialData from '../data/TestimonialData.json'
 
 function Testimonials() {
     return (

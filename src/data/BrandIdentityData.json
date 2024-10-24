@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "projectImage": "/assets/PayQuickBrand.png",
+        "projectName": "PayQuik",
+        "projectDescription": "A fintech app enabling real-time bulk payments and seamless financial transactions.",
+        "isProjectDone": false,
+        "projectHref": "/"
+    },
+    {
+        "id": 2,
+        "projectImage": "/assets/haustidy.png",
+        "projectName": "Haustidy",
+        "projectDescription": "Community ride hailing for swift movement.",
+        "isProjectDone": false,
+        "projectHref": "/"
+    },
+    {
+        "id": 3,
+        "projectImage": "/assets/yes.png",
+        "projectName": "Yesu Nation",
+        "projectDescription": "Working to meet Nigeria’s Energy needs & Building Sustainable Partnerships for a Better Future.",
+        "isProjectDone": true,
+        "projectHref": "/"
+    }
+    
+]

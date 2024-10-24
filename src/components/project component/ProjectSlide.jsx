@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import project1 from '../../assets/project.png';
-import project2 from '../../assets/prototypeImage.png';
+import project1 from '/assets/project.png';
+import project2 from '/assets/prototypeImage.png';
 import Heading from '../Heading';
 
 function ProjectSlide() {

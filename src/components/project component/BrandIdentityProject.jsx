@@ -1,7 +1,7 @@
 import React from 'react'
 import SubHeading from '../SubHeading'
 import BrandIdentityCard from '../BrandIdentityCard'
-import BrandIdentityData from '../../data/BrandIdentityData'
+import BrandIdentityData from '../../data/BrandIdentityData.json'
 
 function BrandIdentityProject() {
     return (
