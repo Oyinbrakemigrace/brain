@@ -7,7 +7,7 @@ function BrandIdentityCard({ data }) {
         <div className='w-full bg-[#262626] max-w-[500px] hover:border hover:border-zinc-400 p-4 rounded-3xl text-white group'>
             <div>
                 <div>
-                    <img src={data.projectImage} alt="projectImage" className='w-full h-80' />
+                    <img src={data.projectImage} alt="projectImage" className='w-full lg:h-80' />
                 </div>
                 <div className='bg-stone-700/70 group-hover:bg-gradient-to-r group-hover:from-gray-600 mt-8 group-hover:to-zinc-800 border border-zinc-600 backdrop-blur-2xl  p-4 rounded-2xl'>
                     <h3 className='font-bold text-3xl mb-4'>{data.projectName}</h3>
