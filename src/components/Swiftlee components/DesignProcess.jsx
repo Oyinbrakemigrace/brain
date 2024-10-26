@@ -23,8 +23,8 @@ function DesignProcess() {
     return (
         <div>
             <SwiftleeHeading title="Design Process" />
-            <div className='lg:px-14 px-7 lg:bg-swift-snake bg-vertical-snake bg-no-repeat bg-clip-content lg:bg-center bg-center bg-contain  w-full'>
-                <div className='bg-opacity-70 p-6 bg-[#26282c] rounded-lg grid lg:grid-cols-4 grid-cols-1 lg:gap-0 gap-6 items-center place-items-center'>
+            <div className='lg:px-14 px-7 lg:bg-swift-snake bg-vertical-swift-snake bg-no-repeat bg-clip-content lg:bg-center bg-center bg-contain  w-full'>
+                <div className='bg-opacity-40 p-6 bg-[#26282c] rounded-lg grid lg:grid-cols-4 grid-cols-1 lg:gap-0 gap-6 items-center place-items-center'>
                     {
                         processes.map((process) => {
                             return (
