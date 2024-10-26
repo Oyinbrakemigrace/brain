@@ -9,6 +9,7 @@ export default {
         "empathy-bg": "url('/assets/DineQR/womanBg.png')",
         "vertical-snake": "url('/assets/DineQR/verticalBg.png')",
         "swift-snake": "url('/assets/SwiftLee/wavyLines.png')",
+        "vertical-swift-snake": "url('/assets/SwiftLee/verticalWavy.png')",
         "empathy-swift-bg": "url('/assets/SwiftLee/maleBg.png')",
       },
     },

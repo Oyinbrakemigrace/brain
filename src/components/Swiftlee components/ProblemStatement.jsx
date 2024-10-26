@@ -63,7 +63,7 @@ function ProblemStatement() {
                     {
                         tools.map((tool) => {
                             return (
-                                <div className='px-16 py-3 text-[#000] bg-[#c6d7fe] rounded-[44px] justify-center items-center gap-3 inline-flex'>
+                                <div className='px-16 py-3 text-[#000] bg-[#fccd0e] rounded-[44px] justify-center items-center gap-3 inline-flex'>
                                     <img src="/assets/SwiftLee/tool.png" alt="" />
                                     <p>{tool}</p>
                                 </div>
